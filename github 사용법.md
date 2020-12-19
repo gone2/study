@@ -13,6 +13,12 @@
 5. '__git push origin master__'를 입력하여 commit 한 것에 대해 저장 (origin : 원격 저장소 주소, master : 현재 브랜치)
 
 ## 그 외의 문법
-* 원격저장소(github repository)와 로컬저장소(자신의 컴퓨터)의 연결 끊기
+* 원격저장소(github repository)와 로컬저장소(자신의 컴퓨터)의 연결 끊기   
     : '__git remote remove origin__'
+    
+* 'fatal: remote origin already exists.' 이와 같이 이미 존재한다는 에러가 나타나면 재정의   
+    : '__git remote rm origin__'
 
+* git이 추적하지 않는 untracked files을 삭제
+    : 파일을 모두 지우려면 '__git clean -f__'
+      디렉토리까지 모두 지우기 위해서는 '__git clean -fd__'
