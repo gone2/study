@@ -6,7 +6,7 @@
 <img width="355" src="https://user-images.githubusercontent.com/32122584/102684682-404a5f00-421e-11eb-8ed5-e8f19c500eb2.png">
     ex)git remote add origin https://github.com/gone2/study.git
 
-3. 파일을 업로드 하기 위해 '__git add [파일 또는 디렉토리]__ or __[ * ]__' 입력 (* : 모든 파일을 업로드 하겠다는 뜻)
+3. 파일을 업로드 하기 위해 '__git add [파일 또는 디렉토리]__ or __[.]__' 입력 (. : 모든 파일을 업로드 하겠다는 뜻)
 
 4. '__git commit -m "업로드 할 파일에 대한 설명"__' 입력
 
