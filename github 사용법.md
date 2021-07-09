@@ -24,5 +24,5 @@
       디렉토리까지 모두 지우기 위해서는 '__git clean -fd__'
       
 ## remote 버전과 local 버전이 달라 충돌
-* error: failed to push some refs to 'XXX.git' 이와 같은 에러 발생 시,
+* error: failed to push some refs to 'XXX.git' 이와 같은 에러 발생
     : '__git pull origin master__'
