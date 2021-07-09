@@ -22,3 +22,7 @@
 * git이 추적하지 않는 untracked files을 삭제
     : 파일을 모두 지우려면 '__git clean -f__'
       디렉토리까지 모두 지우기 위해서는 '__git clean -fd__'
+      
+## remote 버전과 local 버전이 달라 충돌
+* error: failed to push some refs to 'XXX.git' 이와 같은 에러 발생 시,
+    : '__git pull origin master__'
