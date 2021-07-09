@@ -19,10 +19,10 @@
 * 'fatal: remote origin already exists.' 이와 같이 이미 존재한다는 에러가 나타나면 재정의   
     : '__git remote rm origin__'
 
-* git이 추적하지 않는 untracked files을 삭제
-    : 파일을 모두 지우려면 '__git clean -f__'
+* git이 추적하지 않는 untracked files을 삭제   
+    : 파일을 모두 지우려면 '__git clean -f__'   
       디렉토리까지 모두 지우기 위해서는 '__git clean -fd__'
       
 ## remote 버전과 local 버전이 달라 충돌
-* error: failed to push some refs to 'XXX.git' 이와 같은 에러 발생
+* error: failed to push some refs to 'XXX.git' 이와 같은 에러 발생   
     : '__git pull origin master__'
